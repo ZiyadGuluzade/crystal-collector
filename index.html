@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Crystall Collector</title>
+    <script
+        src="https://code.jquery.com/jquery-3.3.1.min.js"
+        integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+        crossorigin="anonymous"></script>
+        
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/CSS/style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="title">
+            <h2>Crystals Collector</h2><br>
+        </div>
+
+        <div class="instructions">
+            <h3>Instructions</h3><br>
+            <p>You will be given a random number at the start of the game</p>
+            <p>There are four crystals below. By clicking on a crystal you will ad a specific amount of points to your totals score.</p>
+            <p>You win the game by matching your total score to random number, you loose the game if your total nubmer goes above the random number.</p>
+            <p>The value of each crystal if hidden from you untill you click on it.</p>
+            <p>Each time when the game starts, the game will change the value of each crystal.</p>
+        </div>
+
+        <div class="game">
+           
+
+            <div class="crystals-selection">
+                <h3>Crystals</h3>
+                <div class="crystals">
+                    <img src="assets/CSS/crystals/blue.jpg" id="blue">
+                    <img src="assets/CSS/crystals/yellow.jpg" id="yellow">
+                    <img src="assets/CSS/crystals/red.jpg" id="red">
+                    <img src="assets/CSS/crystals/green.jpg" id="green">
+                </div>
+            </div><br>
+
+            <div class="total-score">
+                <h3>Your Score is:</h3>
+                <h3 id="userScore"></h3>
+            </div>
+
+            <div class="score">
+                <h3>Score to hit is:</h3>
+                <h3 id="targetScore"></h3>
+            </div>
+
+            <div class="result">
+                <h3>Wins: </h3><br>
+                <h3>Losses: </h3><br>
+            </div>
+            
+        </div>
+        
+
+    </div>
+    <script src="assets/JS/script.js"></script>   
+</body>
+</html>
