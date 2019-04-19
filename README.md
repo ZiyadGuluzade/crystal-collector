@@ -1,6 +1,6 @@
 # Overview
 
-Crystall Collector is a simple front-end app/ game that gives player four crystals with hidden number values. The goal is to click the crystals an combine their values. If user's score matches target score user wins.
+Crystall Collector is a simple front-end app/ game that gives player four crystals with hidden number values. The goal is to click the crystals and combine their values. If user's score matches target score user wins.
 
 ## Landing Page
 
